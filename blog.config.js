@@ -1,9 +1,9 @@
 const BLOG = {
-  title: '松涧',
+  title: 'Song\'s Ravine',
   author: 'Song',
   email: '007@jiangyuesong.me',
   link: 'https://www.jiangyuesong.me',
-  description: '其疾如风，其徐如林，侵掠如火，不动如山',
+  description: 'You don\'t travel to see different things, you travel to see things differently.',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
@@ -18,8 +18,8 @@ const BLOG = {
   autoCollapsedNavBar: false, // the automatically collapsed navigation bar
   socialLink: 'https://twitter.com/ysjiang4869',
   seo: {
-    keywords: ['Blog', 'Website', 'Notion'],
-    googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
+    keywords: ['Blog', 'Website', 'Notion', 'Thinking'],
+    googleSiteVerification: 'CFkP5pWtoq4ptwIatCvGjKvGDuu_4lEepgFOB_4bNtA' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
