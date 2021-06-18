@@ -18,6 +18,15 @@ module.exports = {
       }
     ]
   },
+  async redirects() {
+    return [
+      {
+        source: '/(\\d{4})/(\\d{2})/(\\d{2})/:slug',
+        destination: '/:slug', // Matched parameters can be used in the destination
+        permanent: true,
+      },
+    ]
+  },
   webpack: (config, { dev, isServer }) => {
     // Replace React with Preact only in client production build
     if (!dev && !isServer) {
