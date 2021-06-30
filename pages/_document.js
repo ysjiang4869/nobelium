@@ -99,6 +99,11 @@ class MyDocument extends Document {
             <meta name="theme-color" content={BLOG.appearance === 'dark' ? BLOG.darkBackground : BLOG.lightBackground} />
               )
           }
+          <script
+            data-ad-client="ca-pub-8102853105901584"
+            async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+          </script>
+
         </Head>
         <body className="bg-day dark:bg-night">
           <Main />
