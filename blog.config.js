@@ -4,7 +4,7 @@ const BLOG = {
   email: '007@jiangyuesong.me',
   link: 'https://www.jiangyuesong.me',
   description: 'You don\'t travel to see different things, you travel to see things differently.',
-  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP']
+  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
@@ -13,9 +13,10 @@ const BLOG = {
   since: 2015, // if leave this empty, current year will be used.
   postsPerPage: 7,
   sortByDate: false,
-  showAbout: true, // WIP
-  showArchive: true, // WIP
-  autoCollapsedNavBar: false, // the automatically collapsed navigation bar
+  showAbout: true,
+  showArchive: true,
+  autoCollapsedNavBar: false, // The automatically collapsed navigation bar
+  ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: 'https://twitter.com/ysjiang4869',
   seo: {
     keywords: ['Blog', 'Website', 'Notion', 'Thinking'],

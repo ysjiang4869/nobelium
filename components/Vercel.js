@@ -4,6 +4,7 @@ const Vercel = () => {
       href="https://vercel.com?utm_source=jiangys&utm_campaign=oss"
       target="_blank"
       rel="noreferrer"
+      aria-label="Vercel"
     >
       <svg
         width="135"
